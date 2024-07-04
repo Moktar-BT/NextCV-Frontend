@@ -25,6 +25,10 @@ a:hover {
 body {
   padding: 0px;
   margin: 0px;
+  background-image: url('./assets/bg.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  
 
 }
 
@@ -45,7 +49,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #000000;
 }
 button:focus,
 button:focus-visible {

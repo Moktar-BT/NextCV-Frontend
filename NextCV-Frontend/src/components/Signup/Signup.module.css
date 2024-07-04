@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .nav {
+    display: flex;
+    position: relative;
+    background-color: rgb(46, 53, 98);
+    width: 98.702%;
+    height: 65px;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  .logo {
+    width: 220px;
+    height: auto; 
+    margin-top: 22px;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .form {
+    width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.464);
+  }
+  
+  .form_group {
+    margin-bottom: 15px;
+  }
+  
+  .form_group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form_group input[type="text"],
+  .form_group input[type="email"],
+  .form_group input[type="password"],
+  .form_group input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form_group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(46, 53, 98); /* Couleur du navbar */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition pour l'animation */
+  }
+  
+  .form_group input[type="submit"]:hover {
+    background-color: rgb(205, 208, 227); /* Couleur de fond au survol */
+    border: 1px solid black; /* Optionnel: bordure noire au survol */
+    color: black; /* Couleur du texte au survol */
+  }
+  
+  .signup_link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signup_link p {
+    margin: 0;
+  }
+  
+  .signup_link a {
+    color: rgb(46, 53, 98); /* Couleur du lien */
+    text-decoration: none;
+  }
+  
+  .signup_link a:hover {
+    text-decoration: underline; /* Souligner le lien au survol */
+  }
+  

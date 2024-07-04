@@ -1,0 +1,120 @@
+.ajoutOffreEmploi{
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    width: 600px;
+    height: 250px;
+    background-color: rgba(191, 194, 222, 0.846);
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.154);
+    box-shadow: 10px 5px 5px rgba(26, 27, 32, 0.394);
+    color: rgb(126, 127, 130);
+    margin-bottom: 50px;
+}
+
+/* Styles pour le modal */
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 550px; /* Augmentation de la largeur du modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  /* Form styles */
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .formContainer label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .formContainer input[type="text"],
+  .formContainer textarea {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .formContainer input[type="text"]:focus,
+  .formContainer textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  .formContainer textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .charCount {
+    font-size: 0.875rem;
+    color: #666;
+    text-align: right;
+  }
+  
+  .formButtons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .formButtons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .formButtons button[type="button"] {
+    background-color: #6c757d;
+  }
+  
+  .formButtons button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .formButtons button[type="button"]:hover {
+    background-color: #5a6268;
+  }
+  
